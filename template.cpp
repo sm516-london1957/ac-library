@@ -4,6 +4,8 @@ import std;
 using namespace std;
 using namespace atcoder;
 using ll = long long;
+using ull = unsigned long long;
+using i128 = __int128;
 using ld = long double;
 using vi = vector<int>;
 using vll = vector<ll>;
@@ -22,7 +24,7 @@ using pll = pair<ll, ll>;
 #ifdef LOCAL
 #define debug(...) println(cerr, "{} = {}", #__VA_ARGS__, tuple{__VA_ARGS__})
 #else
-#define debug(...)
+#define debug(...) ((void)0)
 #endif
 [[maybe_unused]] constexpr int mod998 = 998244353;
 [[maybe_unused]] constexpr int mod107 = 1000000007;
@@ -30,6 +32,6 @@ using pll = pair<ll, ll>;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    
+
     
 }
