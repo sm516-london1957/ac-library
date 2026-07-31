@@ -28,6 +28,7 @@ using pll = pair<ll, ll>;
 #endif
 [[maybe_unused]] constexpr int mod998 = 998244353;
 [[maybe_unused]] constexpr int mod107 = 1000000007;
+[[maybe_unused]] constexpr ll inf = 1000000000000000000LL;
 
 int main() {
     ios::sync_with_stdio(false);
