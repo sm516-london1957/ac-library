@@ -1,6 +1,6 @@
 #pragma clang diagnostic ignored "-Wdeprecated"
-import std;
 #include <atcoder/all>
+import std;
 using namespace std;
 using namespace atcoder;
 using ll = long long;
