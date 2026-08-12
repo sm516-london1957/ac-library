@@ -1,11 +1,9 @@
 #pragma clang diagnostic ignored "-Wdeprecated"
-#include <atcoder/all>
 import std;
+#include <atcoder/all>
 using namespace std;
 using namespace atcoder;
 using ll = long long;
-using ull = unsigned long long;
-using i128 = __int128;
 using ld = long double;
 using vi = vector<int>;
 using vll = vector<ll>;
@@ -24,15 +22,14 @@ using pll = pair<ll, ll>;
 #ifdef LOCAL
 #define debug(...) println(cerr, "{} = {}", #__VA_ARGS__, tuple{__VA_ARGS__})
 #else
-#define debug(...) ((void)0)
+#define debug(...)
 #endif
 [[maybe_unused]] constexpr int mod998 = 998244353;
 [[maybe_unused]] constexpr int mod107 = 1000000007;
 [[maybe_unused]] constexpr ll inf = 1000000000000000000LL;
-
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-
+    
     
 }
