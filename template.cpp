@@ -1,4 +1,3 @@
-#pragma clang diagnostic ignored "-Wdeprecated"
 #include <atcoder/all>
 import std;
 using namespace std;
