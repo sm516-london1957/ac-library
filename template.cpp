@@ -15,6 +15,7 @@ using vc = vector<char>;
 using vs = vector<string>;
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
+
 #define rep(i, N) for (ll i = 0; i < (ll)(N); ++i)
 #define rep3(i, M, N) for (ll i = (ll)(M); i < (ll)(N); ++i)
 #define rrep(i, N) for (ll i = (ll)(N) - 1; i >= 0; --i)
@@ -22,10 +23,11 @@ using pll = pair<ll, ll>;
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
 #ifdef LOCAL
-#define debug(...) println(cerr, "{} = {}", #__VA_ARGS__, tuple{__VA_ARGS__})
+#define debug(...) println(cerr, "{} = {}" __VA_OPT__(,) #__VA_ARGS__ __VA_OPT__(,) tuple{__VA_ARGS__})
 #else
 #define debug(...) (void)0
 #endif
+
 [[maybe_unused]] constexpr int mod998 = 998244353;
 [[maybe_unused]] constexpr int mod107 = 1000000007;
 [[maybe_unused]] constexpr ll inf = 1000000000000000000LL;
