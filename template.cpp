@@ -5,14 +5,15 @@ using namespace atcoder;
 using ll = long long;
 using ull = unsigned long long;
 using i128 = __int128;
-using u128 = unsigned __int128;
+using ui128 = unsigned __int128;
 using ld = long double;
+using vb = vector<bool>;
+using vc = vector<char>;
 using vi = vector<int>;
+using vs = vector<string>;
 using vll = vector<ll>;
 using vvi = vector<vi>;
 using vvll = vector<vll>;
-using vc = vector<char>;
-using vs = vector<string>;
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
 
